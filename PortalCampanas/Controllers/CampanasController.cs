@@ -10,5 +10,14 @@ namespace PortalCampanas.Controllers
             var lista = CampanaService.Lista;
             return View(lista);
         }
+
+        public IActionResult Detalle(int id)
+        {
+            var campana = CampanaService.Lista
+                .FirstOrDefault(c => c.Id == id);
+
+            return View(campana);
+        }
     }
+    
 }
