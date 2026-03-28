@@ -18,6 +18,21 @@ namespace PortalCampanas.Controllers
 
             return View(campana);
         }
+        public IActionResult Resumen()
+        {
+            var lista = CampanaService.Lista;
+
+            var resumen = lista
+                .GroupBy(c => c.Estado)
+                .Select(g => new
+                {
+                    Estado = g.Key,
+                    Cantidad = g.Count()
+                })
+                .ToList();
+
+            return View(resumen);
+        }
     }
     
 }
