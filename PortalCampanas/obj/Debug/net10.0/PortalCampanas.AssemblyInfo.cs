@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortalCampanas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f594a9105937df5e3e51945209f8dbbd7f97d4aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb5c6d5af304e504943a85c6a50df64ebccd20d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortalCampanas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortalCampanas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
